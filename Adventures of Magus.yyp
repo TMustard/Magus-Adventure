@@ -1692,6 +1692,25 @@
             }
         },
         {
+            "Key": "71ab5634-0b4b-4ad8-b11a-7c3e942d4db1",
+            "Value": {
+                "id": "a001cb04-0e5d-4c25-97ad-a378b8c1d556",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_magus_attack_up\/s_magus_attack_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "73619243-1fb9-48ec-a281-5ba66af32389",
             "Value": {
                 "id": "0df9d7e7-31af-4355-b35f-6a63c1050b1f",
