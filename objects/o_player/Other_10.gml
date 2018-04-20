@@ -5,6 +5,8 @@ var _y_input = o_input.down_ - o_input.up_;
 var _input_direction = point_direction(0, 0, _x_input, _y_input);
 roll_direction_ = direction_facing_*90;
 var _y_speed = lengthdir_y(speed_, direction_);
+x_speed_ = lengthdir_x(speed_, direction_);
+y_speed_ = lengthdir_y(speed_, direction_);
 
 if _x_input == 0 and _y_input == 0 and !place_meeting(x, y+_y_speed, collision_object_){
 	//image_index = 0;

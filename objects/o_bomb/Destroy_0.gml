@@ -1,3 +1,3 @@
 create_animation_effect(s_explosion_effect, x, y, 1, true);
-create_hitbox(s_bomb_hitbox, x, y-4, 0, 3, [o_grass, o_enemy, o_player, o_bush], 2, 6);
+create_hitbox(s_bomb_hitbox, x, y-4, 0, 3, [o_grass, o_enemy, o_bush], 2, 6);
 audio_play_sound(a_explosion, 7, false);

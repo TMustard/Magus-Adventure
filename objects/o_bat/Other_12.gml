@@ -19,5 +19,5 @@ move_movement_entity(true);
 
 var _player = instance_place(x, y, o_player);
 if _player {
-	create_hitbox(sprite_index, x, y, 0, 1, [o_player], 1, 5);
+	create_hitbox(sprite_index, x, y, 0, 1, [o_player], 1, 0);
 }

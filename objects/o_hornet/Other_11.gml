@@ -8,6 +8,6 @@ if alarm[1] <= 0 {
 	direction_ = random(360);
 }
 
-if alarm[2] <= 0 and distance_to_object(o_player) < range_ and distance_to_object(o_player) > 20{
+if alarm[2] <= 0 and distance_to_object(o_player) < range_ and distance_to_object(o_player) > 40{
 	state_ = hornet.attack;	
 }

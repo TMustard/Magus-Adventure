@@ -1,4 +1,5 @@
-initialize_movement_entity(.5, 1, o_solid);
+initialize_movement_entity(0.5, 0, o_solid);
+//friction was 0.5
 initialize_hurtbox_entity();
 
 image_speed = 0;
@@ -61,12 +62,12 @@ sprite_[player.evade, dir.up] = s_magus_roll_right;
 sprite_[player.evade, dir.left] = s_magus_roll_right;
 sprite_[player.evade, dir.down] = s_magus_roll_right;
 
-sprite_[player.hit, dir.right] = s_player_run_right;
-sprite_[player.hit, dir.up] = s_player_run_up;
-sprite_[player.hit, dir.left] = s_player_run_right;
-sprite_[player.hit, dir.down] = s_player_run_down;
+sprite_[player.hit, dir.right] = s_magus_float;
+sprite_[player.hit, dir.up] = s_magus_float;
+sprite_[player.hit, dir.left] = s_magus_float;
+sprite_[player.hit, dir.down] = s_magus_float;
 
-sprite_[player.bomb, dir.right] = s_player_run_right;
-sprite_[player.bomb, dir.up] = s_player_run_up;
-sprite_[player.bomb, dir.left] = s_player_run_right;
-sprite_[player.bomb, dir.down] = s_player_run_down;
+sprite_[player.bomb, dir.right] = s_magus_float;
+sprite_[player.bomb, dir.up] = s_magus_float;
+sprite_[player.bomb, dir.left] = s_magus_float;
+sprite_[player.bomb, dir.down] = s_magus_float;
