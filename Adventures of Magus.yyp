@@ -2661,6 +2661,25 @@
             }
         },
         {
+            "Key": "c3f07524-98ac-4240-8a0d-b74574b8a222",
+            "Value": {
+                "id": "c8a8b47e-114f-4d2c-8482-da4d20a1f3f9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_gameover\/o_gameover.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c5fb9b33-31db-451b-be0e-13ac2d112e5c",
             "Value": {
                 "id": "e2afc32d-a340-4a83-88e0-5b484e456292",

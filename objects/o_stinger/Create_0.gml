@@ -1,3 +1,3 @@
 event_inherited();
 targets_ = [o_player];
-knockback_ = 0;
+knockback_ = 5;
