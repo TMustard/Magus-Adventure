@@ -45,7 +45,7 @@ sprite_[player.move, dir.down] = s_magus_float;
 sprite_[player.sword, dir.right] = s_magus_attack_right;
 sprite_[player.sword, dir.up] = s_magus_attack_up1;
 sprite_[player.sword, dir.left] = s_magus_attack_right;
-sprite_[player.sword, dir.down] = s_magus_attack_down;
+sprite_[player.sword, dir.down] = s_magus_attack_down1;
 
 //sprite_[player.sword, dir.right] = s_player_attack_right;
 //sprite_[player.sword, dir.up] = s_player_attack_up;
