@@ -24,3 +24,4 @@ _hitbox.damage_ = _damage;
 _hitbox.knockback_ = _knockback;
 
 return _hitbox;
+

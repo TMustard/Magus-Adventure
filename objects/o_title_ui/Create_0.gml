@@ -2,7 +2,7 @@
 enum options {
 	continue_game,
 	new_game,
-	credits,
+	high_scores,
 	quit
 }
 
@@ -11,7 +11,7 @@ menu_dark_color_ = make_color_rgb(126, 127, 81); //58, 173, 133
 
 option_[options.continue_game] = "Continue";
 option_[options.new_game] = "New Game";
-option_[options.credits] = "Credits";
+option_[options.high_scores] = "High Scores";
 option_[options.quit] = "Quit";
 
 option_length_ = array_length_1d(option_);

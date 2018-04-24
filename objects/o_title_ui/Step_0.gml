@@ -23,8 +23,10 @@ if o_input.action_one_pressed_ {
 			room_goto(r_world);
 			break;
 		
-		case options.credits:
-			show_debug_message("Credits");
+		case options.high_scores:
+			//http_get("http://api.uinames.com");
+			http_get("https://dbfz.herokuapp.com/guides/1");
+			//draw_text(x, y+5, "Loading...");
 			break;
 		
 		case options.quit:
