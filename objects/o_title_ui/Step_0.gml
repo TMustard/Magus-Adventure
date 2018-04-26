@@ -25,7 +25,8 @@ if o_input.action_one_pressed_ {
 		
 		case options.high_scores:
 			//http_get("http://api.uinames.com");
-			http_get("https://dbfz.herokuapp.com/guides/1");
+			http_get("https://capstonescoretable.herokuapp.com/scores");
+			//http_get("https://dbfz.herokuapp.com/guides/1");
 			//draw_text(x, y+5, "Loading...");
 			break;
 		

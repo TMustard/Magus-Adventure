@@ -1,4 +1,4 @@
 event_inherited();
-description_ = "A magical ring that grants its'\nwearer the power to roll.";
+description_ = "Grants its user an invincible dash";
 action_ = player.evade;
 cost_ = 0;
