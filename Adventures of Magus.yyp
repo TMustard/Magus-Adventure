@@ -837,6 +837,25 @@
             }
         },
         {
+            "Key": "33af5210-3728-4801-8a68-1f064df67f2a",
+            "Value": {
+                "id": "e5d9dc85-9def-4e8b-bb23-9b39ae4c389f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_gargoyle_attack_2\/s_gargoyle_attack_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34dc0678-7446-4ccf-8ec1-bcbd1fb48bed",
             "Value": {
                 "id": "76992d58-e5db-4341-a0a6-2402fef220e1",
@@ -1993,6 +2012,25 @@
                 ],
                 "resourcePath": "scripts\/move_movement_entity\/move_movement_entity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7d006b01-f7ab-4807-9aa5-b5c6a50f6a28",
+            "Value": {
+                "id": "cbc19ad8-c8db-4e18-bb04-26d32fbf7ae1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_title_player\/o_title_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -5,6 +5,7 @@ if not instance_exists(o_player) {
 	exit;
 }
 
+set_sprite_facing();
 apply_friction_to_movement_entity();
 move_movement_entity(true);
 
@@ -16,7 +17,7 @@ if speed_ == 0 {
 	//alarm[3] = 50;
 	alarm[2] = global.one_second / 10;
 	var _direction = point_direction(x, y, o_player.x, o_player.y) + random_range(-7, 7);
-	var _stinger = instance_create_layer(x + 3, y-7, "Instances", o_fireball1);
+	var _stinger = instance_create_layer(x, y, "Instances", o_fireball1);
 	_stinger.direction = _direction;
 	_stinger.image_angle = _direction;
 	_stinger.speed = 1;

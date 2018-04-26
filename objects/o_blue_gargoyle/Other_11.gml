@@ -1,7 +1,7 @@
 /// @description Move state
 set_sprite_facing();
 //var _x_speed = lengthdir_x(speed_, direction_);
-add_movement_maxspeed(direction_, 0.05, .4);
+add_movement_maxspeed(direction_, 0.03, .1);
 move_movement_entity(false);
 
 sprite_index = s_blue_gargoyle;
