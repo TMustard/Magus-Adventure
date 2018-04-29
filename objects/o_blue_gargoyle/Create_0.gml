@@ -8,7 +8,7 @@ enum b_gargoyle {
 	fireball
 }
 
-max_health_ = 100;
+max_health_ = 15;
 health_ = max_health_;
 starting_state_ = gargoyle.move;
 state_ = starting_state_;
