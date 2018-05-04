@@ -4,6 +4,8 @@ Magus Adventure is a side-scrolling action game built in Game Maker Studio 2 wit
 ![myimage-alt-tag](https://i.imgur.com/Ha1tmiC.png)
 ![myimage-alt-tag](https://i.imgur.com/SDVyJYQ.png)
 ![myimage-alt-tag](https://i.imgur.com/20IJury.png)
+![video](https://vimeo.com/267327727)
+
 
 To run this game, either clone this repo and run Magus Adventure.zip to install the game, or get the .zip file from https://ufile.io/4s1yu.  
 
